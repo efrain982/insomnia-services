@@ -1,0 +1,29 @@
+_id: req_c6fcd227af3b401db7b23adc6f51ed6d
+type: Request
+parentId: wrk_d5f36cc4ac154c829811b0b95fa7014a
+modified: 1674588922385
+created: 1674588896268
+url: http://192.168.1.81:8081/backend/web/index.php?r=adcom/get-adeudos
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_48c79832d9b140b0936d0404fc47acba
+      name: params
+      value: '{"usuarioId": "2178"}'
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674588896268
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
